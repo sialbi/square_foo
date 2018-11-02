@@ -1,0 +1,10 @@
+# Square function
+
+square_function <- function(value){
+  if (is.numeric(value)) {
+    square = value * value
+    cat("The square of", value, "is equal to", square)}
+  else {
+    cat("The value '",value,"'", "has to be numeric to calculate the square")
+  }
+}
